@@ -1,0 +1,65 @@
+/*reser css*/
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+#main {
+  height: 46px;
+  background-color: black;
+}
+
+#nav {
+}
+#nav li {
+  position: relative;
+}
+#nav .subnav li:hover a,
+#nav > li > a {
+  color: white;
+  background-color: black;
+}
+#nav > li {
+  display: inline-block;
+}
+#nav li a {
+  color: azure;
+  text-decoration: none;
+  line-height: 46px;
+  padding: 0 24px;
+  display: block;
+}
+#nav > li > a {
+  text-transform: uppercase;
+}
+#nav li:hover a {
+  color: black;
+  background-color: aqua;
+}
+#nav li:hover .subnav {
+  display: block;
+}
+#nav .nav-arrow-down {
+  font-size: 14px;
+}
+#nav .subnav {
+  display: none;
+  position: absolute;
+  background-color: rgb(19, 15, 8);
+  list-style: none;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+#header {
+  height: ;
+}
+#slider {
+  min-height: 500px;
+  background-color: rgb(16, 56, 56);
+}
+#content {
+  height: ;
+}
